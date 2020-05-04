@@ -1,14 +1,15 @@
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
+import HeroSplash from "../components/HeroSplash"
 import SEO from "../components/seo"
 
 import "./global.css"
 
 const IndexPage = () => {
 	return (
-		<Layout>
+		<Layout className="bg-gray-100">
 			<SEO title="Home" />
+			<HeroSplash />
 		</Layout>
 	)
 }

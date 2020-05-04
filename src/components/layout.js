@@ -10,16 +10,16 @@ import PropTypes from "prop-types"
 import NavBar from "../components/NavBar/NavBar"
 
 const Layout = ({ children }) => {
-  return (
-    <>
-      <NavBar />
-      <main>{children}</main>
-    </>
-  )
+	return (
+		<>
+			<NavBar />
+			<main>{children}</main>
+		</>
+	)
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+	children: PropTypes.node.isRequired,
 }
 
 export default Layout

@@ -1,15 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
 import HeroSplash from "../components/HeroSplash"
+import CandleCard from "../components/CandleCard"
 import SEO from "../components/seo"
 
 import "./global.css"
 
 const IndexPage = () => {
 	return (
-		<Layout className="bg-gray-100">
+		<Layout>
 			<SEO title="Home" />
 			<HeroSplash />
+			<CandleCard />
 		</Layout>
 	)
 }

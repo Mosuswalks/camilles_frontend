@@ -15,6 +15,7 @@ const HeroSplash = () => {
 		}
 	`)
 	const candleJPG = data.allFile.edges[0].node
+
 	return (
 		<div>
 			<div className="px-3 py-3">

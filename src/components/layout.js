@@ -11,9 +11,11 @@ import NavBar from "../components/NavBar/NavBar"
 
 const Layout = ({ children }) => {
 	return (
-		<div className="antialiased">
+		<div className="antialiased bg-gray-200">
 			<NavBar />
-			<main className="bg-gray-200">{children}</main>
+			<div className="w-4/5 m-auto">
+				<main>{children}</main>
+			</div>
 		</div>
 	)
 }

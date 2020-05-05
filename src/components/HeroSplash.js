@@ -18,15 +18,17 @@ const HeroSplash = () => {
 
 	return (
 		<div>
-			<div className="px-3 py-3">
-				<img
-					className=" rounded-lg shadow-xl"
-					src={candleJPG.publicURL}
-					alt={candleJPG.name}
-				/>
-				<h1 className="mt-6 text-2xl px-4 font-bold text-gray-800 leading-tight">
+			<div className="">
+				<div className="">
+					<img
+						className="shadow-xl"
+						src={candleJPG.publicURL}
+						alt={candleJPG.name}
+					/>
+				</div>
+				<h1 className="mt-6 text-2xl px-4 font-semibold text-gray-700 leading-tight">
 					Welcome to <br />
-					<span className="text-indigo-700">Camille's Candle Shop</span>
+					<span className="text-gray-800 font-bold">Camille's Candle Shop</span>
 				</h1>
 				<p className="px-4 text-orange-600 font-normal text-sm">
 					*Online store launching Sept. 2020*

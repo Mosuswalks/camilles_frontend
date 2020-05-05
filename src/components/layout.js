@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
 	return (
 		<div className="antialiased bg-gray-200">
 			<NavBar />
-			<div className="w-4/5 m-auto">
+			<div>
 				<main>{children}</main>
 			</div>
 		</div>

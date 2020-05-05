@@ -2,6 +2,9 @@ module.exports = {
 	purge: [],
 	theme: {
 		extend: {
+			colors: {
+				custom_gray: "#383838",
+			},
 			spacing: {
 				"1/2": "50%",
 				"1/3": "33.333333%",

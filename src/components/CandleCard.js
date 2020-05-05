@@ -24,7 +24,7 @@ const CandleCard = () => {
 	const candles = data.allStrapiCandles.edges
 
 	return (
-		<div className="pt-10">
+		<div className="w-4/5 m-auto">
 			<h2 className="text-2xl font-bold text-gray-900 text-center pb-6">
 				Candles
 			</h2>

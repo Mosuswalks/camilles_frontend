@@ -24,7 +24,7 @@ const NavBar = () => {
 
 	return (
 		<div>
-			<header className="bg-gray-900">
+			<header className="bg-custom_gray">
 				<div className="flex items-center justify-between px-4 py-3">
 					<div>
 						<img className="h-8" src={logoSVG.publicURL} alt={logoSVG.name} />
@@ -34,13 +34,13 @@ const NavBar = () => {
 							<CloseOutlined
 								onClick={() => setIsMenuOpen(!isMenuOpen)}
 								type="button"
-								className="block text-gray-500 text-xl hover:text-white focus:text-white"
+								className="block text-gray-400 text-xl hover:text-white focus:text-white"
 							/>
 						) : (
 							<MenuOutlined
 								onClick={() => setIsMenuOpen(!isMenuOpen)}
 								type="button"
-								className="block text-gray-500 text-xl hover:text-white focus:text-white"
+								className="block text-gray-400 text-xl hover:text-white focus:text-white"
 							/>
 						)}
 					</div>

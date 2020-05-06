@@ -3,7 +3,10 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				custom_gray: "#383838",
+				custom_green: "#3b9a9c",
+				custom_orange: "#ffa45c",
+				custom_peach: "#ffcdab",
+				custom_tan: "#fff4e3",
 			},
 			spacing: {
 				"1/2": "50%",

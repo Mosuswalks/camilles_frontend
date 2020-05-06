@@ -8,14 +8,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 import NavBar from "../components/NavBar/NavBar"
+import Footer from "../components/Footer"
 
 const Layout = ({ children }) => {
 	return (
 		<div className="antialiased bg-gray-200">
 			<NavBar />
-			<div>
-				<main>{children}</main>
-			</div>
+
+			<main>{children}</main>
+			<Footer />
 		</div>
 	)
 }

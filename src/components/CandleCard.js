@@ -24,7 +24,7 @@ const CandleCard = () => {
 	const candles = data.allStrapiCandles.edges
 
 	return (
-		<div className="w-4/5 m-auto">
+		<div className="w-4/5 m-auto pt-24 sm:pt-32">
 			<h2 className="text-2xl font-bold text-gray-900 text-center pb-6">
 				Candles
 			</h2>
@@ -41,7 +41,7 @@ const CandleCard = () => {
 						<div className="bg-white rounded-lg shadow-lg">
 							<div className="p-6 m-auto">
 								{candle.node.new_candle ? (
-									<span className="inline-block mt-1 px-2 text-xs bg-green-200 text-green-600 font-semibold uppercase tracking-wide rounded-full">
+									<span className="inline-block mt-1 px-2 text-xs bg-green-200 text-green-600 font-semibold uppercase tracking-wide rounded-full ">
 										new
 									</span>
 								) : null}

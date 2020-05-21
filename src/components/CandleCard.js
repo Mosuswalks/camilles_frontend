@@ -1,8 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-require("dotenv").config({
-	path: `.env.${process.env.NODE_ENV}`,
-})
 
 const CandleCard = () => {
 	const data = useStaticQuery(graphql`
@@ -36,7 +33,9 @@ const CandleCard = () => {
 					<div className="pb-6 lg:mx-6">
 						<div className="relative pb-5/6">
 							<img
-								src={`${process.env.API_URL}/${candle.node.image[0].url}`}
+								src={`${process.env.API_URL || "http://localhost:1337"}${
+									candle.node.image[0].url
+								}`}
 								alt={`${candle.node.name} Candle`}
 								className="absolute h-full w-full object-cover object-bottom rounded-lg shadow-md"
 							/>

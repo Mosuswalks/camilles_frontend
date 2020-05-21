@@ -17,8 +17,8 @@ const HeroSplash = () => {
 	const candleJPG = data.allFile.edges[0].node
 
 	return (
-		<div className="pt-12">
-			<div className=" sm:w-4/5 sm:m-auto sm:flex sm:justify-evenly sm:bg-gray-100 sm:shadow-lg">
+		<div className=" bg-gray-200 pt-12">
+			<div className=" sm:w-4/5 sm:m-auto sm:flex sm:justify-evenly sm:bg-gray-100">
 				<div className=" sm:w-1/2 sm:py-20 sm:px-12">
 					<h1 className="text-3xl text-gray-700 leading-tight sm:text-3xl sm:px-2">
 						Welcome to <br />
@@ -29,7 +29,7 @@ const HeroSplash = () => {
 					<p className="text-xs text-orange-600 font-normal sm:text-xs sm:ml-1 sm:px-2">
 						*Online store launching Sept. 2020*
 					</p>
-					<div className="mt-2 w-4/5 m-auto text-gray-600 sm:mt-4 sm:px-4 sm:text-md leading-7">
+					<div className="mt-2  w-4/5 m-auto text-gray-600 sm:mt-4 sm:px-4 sm:text-md leading-7">
 						<ul className="list-disc">
 							<li>Natural soy candles (vegan)</li>
 							<li>100% recycled containers</li>

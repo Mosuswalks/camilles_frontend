@@ -1,6 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { BulbFilled } from "@ant-design/icons"
 
 const CandleCard = () => {
 	const data = useStaticQuery(graphql`
